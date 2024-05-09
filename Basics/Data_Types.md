@@ -1,5 +1,7 @@
 # Data Types / Object Types 
 
+![alt](https://techaid24.com/wp-content/uploads/2020/09/Data-Types-In-Python.png)
+
 ## Immutable and Mutable
 
 **Immutable Objects**
@@ -25,13 +27,13 @@
     - *Immutable ordered sequence of elements, enclosed in parentheses `(())`, allows duplicates, and elements can be of different types.*
 
 - **Dictionary** : `{'food': 'spam', 'taste': 'yum'}`, `dict(hours=10)`
-    -   *Collection of key-value pairs, enclosed in curly braces ({}), keys must be unique and immutable, values can be of any data type.*
+    -   *Collection of key-value pairs, enclosed in curly braces `({})`, keys must be unique and immutable, values can be of any data type.*
 
 - **Set** : `set('abc')`, `{'a', 'b', 'c'}`
     - *Unordered collection of unique elements, enclosed in curly braces `({})`, does not allow duplicates, and elements must be immutable.*
 
 - **File** : `open('files.txt')`, `open(r'C:\users.bin', 'wb')`
-    - *Represents files in the file system, opened using the `open()` function with various modes like 'r' for reading, 'w' for writing, etc.*
+    - *Represents files in the file system, opened using the `open()` function with various modes like `r` for reading, `w`S for writing, etc.*
 
 - **Boolean** : `True`, `False`
 

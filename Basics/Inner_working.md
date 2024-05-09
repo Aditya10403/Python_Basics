@@ -1,4 +1,4 @@
-## Inner Working
+# Inner Working
 
 ![alt](https://miro.medium.com/max/1200/1*1athPfdP9St4mkB_hElM6g.png)
 
@@ -6,7 +6,7 @@
 
 - *Byte code runs faster*
 
-- **.pyc - Compiled Python (frozen Binaries)**
+- **`.pyc` - Compiled Python (frozen Binaries)**
 
 - **`__pycache__` - source change and python version**
 
