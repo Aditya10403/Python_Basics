@@ -3,7 +3,8 @@
 ## Syntax Errors
 Grammatical mistakes in code.
 ```python
-print("Hello, world!")
+print("Hello, world!)
+# SyntaxError: unterminated string literal
 ```
 
 ## Runtime Errors (Exceptions)
@@ -13,6 +14,7 @@ Problems during execution.
 numerator = 10
 denominator = 0
 result = numerator / denominator
+# ZeroDivisionError: division by zero
 ```
 
 ## Name Errors
@@ -20,6 +22,7 @@ Undefined variable names.
 
 ```python
 print(unknown_variable)
+# NameError: name 'unknown_variable' is not defined
 ```
 
 ## Type Errors
