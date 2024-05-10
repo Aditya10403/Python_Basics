@@ -50,4 +50,4 @@
 
 - **Note :**
     - *`String` is internally treated as `array`*
-    - *Python treates `Numbers` and `Strings` more efficiently. e.g. late `Garbage Collection` for numbers and strings.*
+    - *Python treats `Numbers` and `Strings` more efficiently. e.g. late `Garbage Collection` for numbers and strings.*
