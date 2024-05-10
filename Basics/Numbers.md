@@ -174,7 +174,7 @@ x + y # 1
 - **`Union`**: `|`
 - **`Intersection`**: `&`
 - **`Difference`**: `-`
-- **`Symmetric Difference`**: `^`
+- **`Symmetric Difference`**: `^` Finds elements that are present in either of the sets, but not in both.
 ```python
 set1 = { 1, 2, 3, 4, 5 }
 set2 = { 1, 5 } 
