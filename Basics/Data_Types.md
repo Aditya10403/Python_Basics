@@ -1,4 +1,4 @@
-# Data Types / Object Types 
+# **Data Types / Object Types**
 
 ![alt](https://techaid24.com/wp-content/uploads/2020/09/Data-Types-In-Python.png)
 

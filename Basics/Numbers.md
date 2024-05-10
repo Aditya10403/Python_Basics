@@ -1,4 +1,4 @@
-# Numbers in Python
+# **Numbers in Python**
 
 ### Numeric Types
 
@@ -29,7 +29,7 @@ Python supports the following numeric types:
 5 % 2 # 1
 5 ** 2 # 25
 ```
-Note - 
+**`Note`** -
 ```python
 'Sita' + 'Ram' # 'SitaRam'
 

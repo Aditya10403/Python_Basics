@@ -1,4 +1,4 @@
-# Types of Errors in Python
+# **Types of Errors in Python**
 
 ## Syntax Errors
 Grammatical mistakes in code.
