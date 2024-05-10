@@ -42,11 +42,11 @@ x = [1, 2, 3]
 y = [1, 2, 3]
 
 result = x is y
-print(result)  # Output: False (x and y are different objects in memory)
+print(result)  # False bcoz x and y are different objects in memory
 
 z = x
 result = x is z
-print(result)  # Output: True (x and z refer to the same object in memory)
+print(result)  # True bcoz x and z refer to the same object in memory
 
 ```
 
@@ -54,16 +54,16 @@ print(result)  # Output: True (x and z refer to the same object in memory)
 The not operator is a logical operator used to negate the value of a boolean expression. It returns True if the expression is False, and False if the expression is True.
 ```python
 result = not True
-print(result)  # Output: False
+print(result)  # False
 
 result = not False
-print(result)  # Output: True
+print(result)  # True
 
 x = 5
 y = 10
 
 result = not x > y
-print(result)  # Output: True (5 is not greater than 10)
+print(result)  # True bcoz 5 is not greater than 10
 ```
 **`Note`** - 
 ```python
