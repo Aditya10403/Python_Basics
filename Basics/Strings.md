@@ -2,6 +2,8 @@
 
 **In Python, strings are sequences of characters enclosed within single `(' ')` or double `(" ")` or `(""" """)` triple quotes. They are immutable, meaning their contents cannot be changed once defined.**
 
+![alt](https://codelucky.com/wp-content/uploads/2023/02/Python-Strings.png)
+
 ## Common Operations
 
 ### Concatenation
