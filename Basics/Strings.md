@@ -164,7 +164,7 @@ import re
 pattern = r"\b[A-Z][a-z]*\b" # -> # Match words that start with an uppercase letter followed by zero or more lowercase letters
 string = "Sita Ram"
 matches = re.findall(pattern, string)
-print(matches)  # Output: ['Hello', 'World']
+print(matches)  # ['Sita', 'Ram']
 ```
 
 ## Ordered Formatting / Printing methods
