@@ -1,10 +1,23 @@
 # **Strings in Python**
 
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
 **In Python, strings are sequences of characters enclosed within single `(' ')` or double `(" ")` or `(""" """)` triple quotes. They are immutable, meaning their contents cannot be changed once defined.**
 
 ![alt](https://codelucky.com/wp-content/uploads/2023/02/Python-Strings.png)
 
-## Common Operations
+## Contents
+
+- **[Common Operations](#co)**
+- **[String Methods](#sm)**
+- **[Importing Modules for String Operations](#im)**
+- **[Ordered Formatting / Printing methods](#of)**
+
+## Common Operations {#co}
 
 ### Concatenation
 
@@ -32,7 +45,7 @@ string = "Sita Ram"
 "Sita" in string # True
 ```
 
-## String Methods
+## <span id="sm">String Methods</span> 
 
 Python provides numerous built-in methods for string manipulation:
 
@@ -140,7 +153,7 @@ string = "sITA rAM"
 print(string.swapcase())  # Sita Ram
 ```
 
-## Importing Modules for String Operations
+## <span id="im">Importing Modules for String Operations</span> 
 
 ### `string` Module
 
@@ -167,7 +180,7 @@ matches = re.findall(pattern, string)
 print(matches)  # ['Sita', 'Ram']
 ```
 
-## Ordered Formatting / Printing methods
+## <span id="of">Ordered Formatting / Printing methods</span>
 
 - **`print(string)`**
 ```python
@@ -208,7 +221,7 @@ print(*strings, sep=", ") # Sita, Ram
 
 ### Raw Strings
 
-***a string that is prefixed with an 'r' or 'R'. It is used to treat backslashes ('\') as literal characters.***
+***a string that is prefixed with an `r` or `R`. It is used to treat backslashes `'\'` as literal characters.***
 
 ```python
 # Without raw string
