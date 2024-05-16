@@ -9,7 +9,15 @@ Python supports the following numeric types:
 
 ![alt](https://th.bing.com/th/id/OIP.t_i3btxR5fPlJtl71_UikAHaD4?rs=1&pid=ImgDetMain)
 
-## Common Operations
+- **[Common Operations](#co)**
+- **[Built-in Functions](#bf)**
+- **[Bitwise operations](#bo)**
+- **[Math Module](#mo)**
+- **[Random Module](#ro)**
+- **[Decimal and Fraction Libraries](#df)**
+- **[Set Opetarions](#so)**
+
+## <span id="co">Common Operations</span>
 
 ### Arithmetic Operations
 
@@ -59,7 +67,7 @@ Python supports the following numeric types:
 2 <= 3 # True
 ```
 
-## Built-in Functions
+## <span id="bf">Built-in Functions</span>
 
 Python provides several built-in functions for working with numbers:
 
@@ -91,7 +99,7 @@ int('64', 16) # 100
 int('100000', 2)  # 32
 ```
 
-## Bitwise operations
+## <span id="bo">Bitwise operations</span>
 - **AND `&`**: Returns 1 if both bits are 1, otherwise, it returns 0.
 - **OR `|`**: Returns 1 if either of the bits is 1, otherwise, it returns 0.
 - **XOR `^`**: Returns 1 if the bits are different, otherwise, it returns 0.
@@ -107,7 +115,7 @@ int('100000', 2)  # 32
 16 >> 2 # 4
 ```
 
-## Math Module
+## <span id="mo">Math Module</span>
 
 Python's `math` module provides additional mathematical functions and constants:
 
@@ -123,7 +131,7 @@ math.floor(3.5) # 3 closest below value
 math.trunc(2.8) # 2 towards zero value  
 ```
 
-## Random Module
+## <span id="ro">Random Module</span>
 
 Python's `random` module provides functions for generating random numbers:
 
@@ -140,7 +148,7 @@ print(random.randint(1, 10)) # 3
 print(random.choice(['a', 'b', 'c', 'd'])) # 'b'
 ```
 
-## Decimal and Fraction Libraries
+## <span id="df">Decimal and Fraction Libraries</span>
 
 ### Decimal Library
 
@@ -169,7 +177,7 @@ y = Fraction(2, 3)
 x + y # 1
 ```
 
-## Set Opetarions
+## <span id="so">Set Opetarions</span>
 
 - **`Union`**: `|`
 - **`Intersection`**: `&`

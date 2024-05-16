@@ -11,7 +11,7 @@
 - **[Importing Modules for String Operations](#im)**
 - **[Ordered Formatting / Printing methods](#of)**
 
-## Common Operations {#co}
+## <span id="co">Common Operations</span>
 
 ### Concatenation
 

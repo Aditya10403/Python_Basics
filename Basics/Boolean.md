@@ -2,9 +2,16 @@
 
 Booleans are a fundamental data type in Python used to represent truth values. They have two possible values: `True` and `False`.
 - *`internally Boolean are also numbers -> 0 / 1`*
+
 ![alt](https://th.bing.com/th/id/OIP.fB2rsYEq0BNIFz2AhXeX9AHaFL?rs=1&pid=ImgDetMain)
 
-## Boolean Operations
+## Contents
+
+- **[Boolean Operations](#bo)**
+- **[Comparison Operations](#co)**
+- **[Built-in Functions](#bf)**
+
+## <span id="bo">Boolean Operations</span>
 
 - **Logical AND `and`**
 - **Logical OR `or`**
@@ -81,7 +88,7 @@ print(True + 4) # 5
 print(False + 4) # 4
 ```
 
-## Comparison Operations
+## <span id="co">Comparison Operations</span>
 
 - **Equal to**: `==`
 - **Not equal to**: `!=`
@@ -98,7 +105,7 @@ print(False + 4) # 4
 2 <= 3 # True
 ```
 
-## Built-in Functions
+## <span id="bf">Built-in Functions</span>
 
 - **`bool()`**: Converts a value to its boolean equivalent.
 - **`all()`**: Returns True if all elements of an iterable are True, otherwise returns False.
