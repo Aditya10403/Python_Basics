@@ -41,7 +41,7 @@ Lists are a fundamental data structure in Python used to store collections of it
     my_list.insert(2, 10)
     print(my_list) # [0, 1, 10, 2, 3, 4, 5, 6, 7, 8]
     ```
-- **Removing Elements**: using `remove()`, `pop()`, or `del` methods.
+- **Removing Elements**: using `remove()`, `pop()`, `del`, or `clear` methods.
     ```python
     my_list = [0, 1, 2, 3, 4, 5]
     my_list.remove(3)  # Removes the element 3 from the list
@@ -50,6 +50,8 @@ Lists are a fundamental data structure in Python used to store collections of it
     print(my_list)     # [0, 1, 2, 4]
     del my_list[0]     # Deletes the element at index 0
     print(my_list)     # [1, 2, 4]
+    my_list.clear()    # Removes all elements from the list
+    print(my_list)     # []
     ```
 
 - **Searching**: using `index()` function.
